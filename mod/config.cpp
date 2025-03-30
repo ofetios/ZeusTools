@@ -45,6 +45,7 @@ class CfgFunctions {
         class Functions {
             file = "\mod\functions";
             class checkVIP {};
+			class helloWorld {};
         };
     };
 };
