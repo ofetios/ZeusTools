@@ -30,6 +30,7 @@ class CfgVehicles {
         isTriggerActivated = 1;
         isDisposable = 0;
         curatorCanAttach = 1;
+		functionContext = "spawn";
 
         class ModuleDescription : ModuleDescription {
             description[] = {
