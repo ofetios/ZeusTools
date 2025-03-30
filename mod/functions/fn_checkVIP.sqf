@@ -1,6 +1,6 @@
 params ["_logic", "_units", "_activated"];
 
-[_logic] spawn {
+_logic spawn {
     params ["_logic"];
 
     if (!alive VIP) then {
@@ -9,11 +9,13 @@ params ["_logic", "_units", "_activated"];
         hint "VIP is still alive.";
     };
 
-    sleep 1;
+    sleep 10;
+
+    private _syncedModules = synchronizedObjects _logic;
 
     {
         if (_x isKindOf "Module_F" && { _x != _logic }) then {
             [_x, [], true] call BIS_fnc_moduleExecute;
         };
-    } forEach synchronizedObjects _logic;
+    } forEach _syncedModules;
 };
