@@ -1,5 +1,5 @@
 class CfgPatches {
-    class MyModule {
+    class ZT {
         units[] = {"ModuleCheckVIP"};
         requiredVersion = 1.0;
         requiredAddons[] = {"A3_Modules_F"};
@@ -41,7 +41,7 @@ class CfgVehicles {
 };
 
 class CfgFunctions {
-    class MyModule {
+    class ZT {
         class Functions {
             file = "\mod\functions";
             class checkVIP {};
