@@ -5,9 +5,18 @@ class CfgPatches {
 };
 
 class CfgVehicles {
-    class BaseSequenceModule;
-    class ModuleDescription;
+    class Logic;
+    class Module_F : Logic {
+        class ArgumentsBaseUnits {};
+        class ModuleDescription;
+    };
+
+    class BaseSequenceModule : Module_F {
+        category = "MyModuleCategory";
+    };
+
     class ModuleHelloWorld : BaseSequenceModule {
+        displayName = "Hello World2";
         scope = 2;
         function = "ZT_Sequencer_fnc_helloWorld";
         functionPriority = 1;
