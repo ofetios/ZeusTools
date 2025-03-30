@@ -16,7 +16,7 @@ class CfgVehicles {
     };
 
     class ModuleHelloWorld : BaseSequenceModule {
-        displayName = "Hello World2";
+        displayName = "Hello World";
         scope = 2;
         function = "ZT_Sequencer_fnc_helloWorld";
         functionPriority = 1;
