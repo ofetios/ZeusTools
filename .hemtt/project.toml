@@ -1,10 +1,13 @@
 name = "ZeusTools"
 author = "WSV-Team"
-prefix = "zt"
 mainprefix = "z"
+prefix = "ZT"
 
 [version]
 major = 1
 minor = 0
 patch = 0
 build = 0
+
+[build]
+main_addon = ["addons/functions", "addons/Sequencer"]
