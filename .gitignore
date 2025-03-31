@@ -1,5 +1,5 @@
 # Ignore VSCode settings
 .vscode/
 
-# Ignore built mod
-addons/
+# Ignore built addons
+.hemttout/
