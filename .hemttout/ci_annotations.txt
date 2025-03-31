@@ -1,0 +1,1 @@
+6||6||16||19||warning||Variable should not be all caps: VIP||all caps variable||/addons/functions/fn_checkVIP.sqf
