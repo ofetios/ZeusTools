@@ -1,0 +1,13 @@
+name = "ZeusTools";
+picture = "zt_logo.paa";
+logo = "zt_logo.paa";
+logoOver = "zt_logo.paa";
+tooltip = "ZeusTools";
+tooltipOwned = "ZeusTools Owned";
+overview = "WIP: give this a good description";
+author = "WSV Team";
+hideName = 0;
+hidePicture = 0;
+actionName = "GitHub";
+action = "https://github.com/ofetios/ZeusTools";
+overviewPicture = "zt_logo.paa";
