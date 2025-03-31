@@ -1,7 +1,6 @@
 class CfgPatches {
     class ZT_Sequencer {
         units[] = {"ZT_Module_HelloWorld"};
-        requiredAddons[] = { "A3_Modules_F" };
     };
 };
 

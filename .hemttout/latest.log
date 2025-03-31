@@ -1,118 +1,118 @@
-2025-03-31T19:09:30.657481Z TRACE ThreadId(01) version: 1.15.0
-2025-03-31T19:09:30.657597Z TRACE ThreadId(01) platform: windows
-2025-03-31T19:09:30.657621Z TRACE ThreadId(01) args: [
+2025-03-31T19:51:17.546176Z TRACE ThreadId(01) version: 1.15.0
+2025-03-31T19:51:17.546265Z TRACE ThreadId(01) platform: windows
+2025-03-31T19:51:17.546280Z TRACE ThreadId(01) args: [
     "hemtt",
     "launch",
 ]
-2025-03-31T19:09:30.657954Z TRACE ThreadId(01) launch config: LaunchOptions { workshop: [], dlc: [], presets: [], optionals: [], mission: None, dev_mission: None, parameters: [], executable: None, binarize: None, file_patching: None, instances: None, rapify: None }
-2025-03-31T19:09:30.666108Z DEBUG ThreadId(01) Arma 3 found at: D:\SteamLibrary\steamapps\common\Arma 3
-2025-03-31T19:09:30.666369Z TRACE ThreadId(01) using temporary folder: "C:\\Users\\pc\\AppData\\Local\\Temp\\hemtt\\Users_pc_Desktop_@ZeusTools"
-2025-03-31T19:09:30.666384Z TRACE ThreadId(01) using project folder: "C:\\Users\\pc\\Desktop\\@ZeusTools"
-2025-03-31T19:09:30.666446Z TRACE ThreadId(01) using out folder: "C:\\Users\\pc\\Desktop\\@ZeusTools\\.hemttout"
-2025-03-31T19:09:30.666720Z TRACE ThreadId(01) using build folder: "C:\\Users\\pc\\Desktop\\@ZeusTools\\.hemttout\\dev"
-2025-03-31T19:09:30.669118Z TRACE ThreadId(01) Prefix: VfsPath { path: "/addons/$PBOPREFIX$", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\pc\\AppData\\Local\\Temp\\hemtt\\Users_pc_Desktop_@ZeusTools\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\pc\\Desktop\\@ZeusTools" } } } } } }] } } }
-2025-03-31T19:09:30.669729Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\pc\\AppData\\Local\\Temp\\hemtt\\Users_pc_Desktop_@ZeusTools\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\pc\\Desktop\\@ZeusTools" } } } } } }] } } }
-2025-03-31T19:09:30.670072Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/sequencer/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\pc\\AppData\\Local\\Temp\\hemtt\\Users_pc_Desktop_@ZeusTools\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\pc\\Desktop\\@ZeusTools" } } } } } }] } } }
-2025-03-31T19:09:30.670286Z TRACE ThreadId(01) Prefix: VfsPath { path: "/addons/sequencer/$PBOPREFIX$", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\pc\\AppData\\Local\\Temp\\hemtt\\Users_pc_Desktop_@ZeusTools\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\pc\\Desktop\\@ZeusTools" } } } } } }] } } }
-2025-03-31T19:09:30.671335Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/sequencer/modules/HelloWorld/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\pc\\AppData\\Local\\Temp\\hemtt\\Users_pc_Desktop_@ZeusTools\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\pc\\Desktop\\@ZeusTools" } } } } } }] } } }
-2025-03-31T19:09:30.672236Z TRACE ThreadId(01) Prefix: VfsPath { path: "/addons/functions/$PBOPREFIX$", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\pc\\AppData\\Local\\Temp\\hemtt\\Users_pc_Desktop_@ZeusTools\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\pc\\Desktop\\@ZeusTools" } } } } } }] } } }
-2025-03-31T19:09:30.672632Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/functions/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\pc\\AppData\\Local\\Temp\\hemtt\\Users_pc_Desktop_@ZeusTools\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\pc\\Desktop\\@ZeusTools" } } } } } }] } } }
-2025-03-31T19:09:30.672653Z TRACE ThreadId(01) reading version from project.toml
-2025-03-31T19:09:30.679763Z  INFO ThreadId(01) Config loaded for ZeusTools 1.0.0.0-d9e53c28
-2025-03-31T19:09:30.679832Z TRACE ThreadId(01) Scanning C:\Users\pc\Desktop\@ZeusTools\addons for addons
-2025-03-31T19:09:30.680993Z  INFO ThreadId(01) Creating `dev` version
-2025-03-31T19:09:30.681013Z TRACE ThreadId(01) phase: init (BOM Check) (start)
-2025-03-31T19:09:30.681017Z TRACE ThreadId(01) phase: init (BOM Check) (done)
-2025-03-31T19:09:30.681022Z TRACE ThreadId(01) phase: init (Hooks) (start)
-2025-03-31T19:09:30.681063Z TRACE ThreadId(01) no hooks folder
-2025-03-31T19:09:30.681068Z TRACE ThreadId(01) phase: init (Hooks) (done)
-2025-03-31T19:09:30.681071Z TRACE ThreadId(01) phase: init (SQF) (start)
-2025-03-31T19:09:31.149218Z TRACE ThreadId(01) phase: init (SQF) (done)
-2025-03-31T19:09:31.149234Z TRACE ThreadId(01) phase: init (Rapifier) (start)
-2025-03-31T19:09:31.149238Z TRACE ThreadId(01) phase: init (Rapifier) (done)
-2025-03-31T19:09:31.149241Z TRACE ThreadId(01) phase: init (Files) (start)
-2025-03-31T19:09:31.149245Z TRACE ThreadId(01) phase: init (Files) (done)
-2025-03-31T19:09:31.149248Z TRACE ThreadId(01) phase: init (FilePatching) (start)
-2025-03-31T19:09:31.149252Z TRACE ThreadId(01) phase: init (FilePatching) (done)
-2025-03-31T19:09:31.149255Z TRACE ThreadId(01) phase: init (Stringtables) (start)
-2025-03-31T19:09:31.149258Z TRACE ThreadId(01) phase: init (Stringtables) (done)
-2025-03-31T19:09:31.149264Z TRACE ThreadId(01) phase: check (BOM Check) (start)
-2025-03-31T19:09:31.149984Z TRACE ThreadId(01) phase: check (BOM Check) (done)
-2025-03-31T19:09:31.149991Z TRACE ThreadId(01) phase: check (Hooks) (start)
-2025-03-31T19:09:31.149995Z TRACE ThreadId(01) phase: check (Hooks) (done)
-2025-03-31T19:09:31.149998Z TRACE ThreadId(01) phase: check (SQF) (start)
-2025-03-31T19:09:31.150058Z TRACE ThreadId(01) phase: check (SQF) (done)
-2025-03-31T19:09:31.150062Z TRACE ThreadId(01) phase: check (Rapifier) (start)
-2025-03-31T19:09:31.150100Z TRACE ThreadId(01) phase: check (Rapifier) (done)
-2025-03-31T19:09:31.150103Z TRACE ThreadId(01) phase: check (Files) (start)
-2025-03-31T19:09:31.150107Z TRACE ThreadId(01) phase: check (Files) (done)
-2025-03-31T19:09:31.150110Z TRACE ThreadId(01) phase: check (FilePatching) (start)
-2025-03-31T19:09:31.150113Z TRACE ThreadId(01) phase: check (FilePatching) (done)
-2025-03-31T19:09:31.150116Z TRACE ThreadId(01) phase: check (Stringtables) (start)
-2025-03-31T19:09:31.150137Z TRACE ThreadId(01) phase: check (Stringtables) (done)
-2025-03-31T19:09:31.150141Z TRACE ThreadId(01) phase: pre_build (BOM Check) (start)
-2025-03-31T19:09:31.150144Z TRACE ThreadId(01) phase: pre_build (BOM Check) (done)
-2025-03-31T19:09:31.150148Z TRACE ThreadId(01) phase: pre_build (Hooks) (start)
-2025-03-31T19:09:31.150154Z TRACE ThreadId(01) phase: pre_build (Hooks) (done)
-2025-03-31T19:09:31.150157Z TRACE ThreadId(01) phase: pre_build (SQF) (start)
-2025-03-31T19:09:31.154886Z TRACE ThreadId(07) sqf compiling /addons/functions/fn_globalHelloWorld.sqf
-2025-03-31T19:09:31.154886Z TRACE ThreadId(03) sqf compiling /addons/functions/fn_checkVIP.sqf
-2025-03-31T19:09:31.154892Z TRACE ThreadId(08) sqf compiling /addons/sequencer/modules/HelloWorld/functions/fn_helloWorld.sqf
-2025-03-31T19:09:31.158196Z  INFO ThreadId(01) Compiled 3 sqf files
-2025-03-31T19:09:31.158218Z TRACE ThreadId(01) phase: pre_build (SQF) (done)
-2025-03-31T19:09:31.158222Z TRACE ThreadId(01) phase: pre_build (Rapifier) (start)
-2025-03-31T19:09:31.163311Z  INFO ThreadId(01) Rapified 3 addon configs
-2025-03-31T19:09:31.163330Z TRACE ThreadId(01) phase: pre_build (Rapifier) (done)
-2025-03-31T19:09:31.163335Z TRACE ThreadId(01) phase: pre_build (Files) (start)
-2025-03-31T19:09:31.163338Z TRACE ThreadId(01) phase: pre_build (Files) (done)
-2025-03-31T19:09:31.163342Z TRACE ThreadId(01) phase: pre_build (FilePatching) (start)
-2025-03-31T19:09:31.163585Z TRACE ThreadId(04) junction link "C:\\Users\\pc\\Desktop\\@ZeusTools\\.hemttout\\dev\\addons\\sequencer" => "C:\\Users\\pc\\Desktop\\@ZeusTools\\addons\\sequencer"
-2025-03-31T19:09:31.163602Z TRACE ThreadId(03) junction link "C:\\Users\\pc\\Desktop\\@ZeusTools\\.hemttout\\dev\\addons\\functions" => "C:\\Users\\pc\\Desktop\\@ZeusTools\\addons\\functions"
-2025-03-31T19:09:31.180909Z TRACE ThreadId(01) phase: pre_build (FilePatching) (done)
-2025-03-31T19:09:31.180931Z TRACE ThreadId(01) phase: pre_build (Stringtables) (start)
-2025-03-31T19:09:31.183516Z  INFO ThreadId(01) Checked 0 stringtables
-2025-03-31T19:09:31.183535Z TRACE ThreadId(01) phase: pre_build (Stringtables) (done)
-2025-03-31T19:09:31.183541Z TRACE ThreadId(01) phase: build (start)
-2025-03-31T19:09:31.186190Z DEBUG ThreadId(01) "C:\\Users\\pc\\Desktop\\@ZeusTools\\.hemttout\\dev\\addons" already exists
-2025-03-31T19:09:31.186201Z DEBUG ThreadId(01) building "addons/functions" => "C:\\Users\\pc\\Desktop\\@ZeusTools\\.hemttout\\dev\\addons\\ZT_functions.pbo"
-2025-03-31T19:09:31.186839Z TRACE ThreadId(01) adding file "fn_globalHelloWorld.sqf"
-2025-03-31T19:09:31.186948Z TRACE ThreadId(01) adding file "config.bin"
-2025-03-31T19:09:31.186959Z TRACE ThreadId(01) adding file "fn_checkVIP.sqfc"
-2025-03-31T19:09:31.187360Z TRACE ThreadId(01) adding file "fn_globalHelloWorld.sqfc"
-2025-03-31T19:09:31.187462Z TRACE ThreadId(01) adding file "fn_checkVIP.sqf"
-2025-03-31T19:09:31.188395Z DEBUG ThreadId(01) "C:\\Users\\pc\\Desktop\\@ZeusTools\\.hemttout\\dev\\addons" already exists
-2025-03-31T19:09:31.188406Z DEBUG ThreadId(01) building "addons/sequencer" => "C:\\Users\\pc\\Desktop\\@ZeusTools\\.hemttout\\dev\\addons\\ZT_sequencer.pbo"
-2025-03-31T19:09:31.189696Z TRACE ThreadId(01) adding file "config.bin"
-2025-03-31T19:09:31.189890Z TRACE ThreadId(01) adding file "modules\\plannedModules.txt"
-2025-03-31T19:09:31.190088Z TRACE ThreadId(01) adding file "modules\\HelloWorld\\config.bin"
-2025-03-31T19:09:31.190101Z TRACE ThreadId(01) adding file "modules\\HelloWorld\\functions\\fn_helloWorld.sqfc"
-2025-03-31T19:09:31.190201Z TRACE ThreadId(01) adding file "modules\\HelloWorld\\functions\\fn_helloWorld.sqf"
-2025-03-31T19:09:31.191140Z  INFO ThreadId(01) Built 2 PBOs
-2025-03-31T19:09:31.191156Z TRACE ThreadId(01) phase: build (done)
-2025-03-31T19:09:31.191163Z TRACE ThreadId(01) phase: post_build (BOM Check) (start)
-2025-03-31T19:09:31.191166Z TRACE ThreadId(01) phase: post_build (BOM Check) (done)
-2025-03-31T19:09:31.191170Z TRACE ThreadId(01) phase: post_build (Hooks) (start)
-2025-03-31T19:09:31.191174Z TRACE ThreadId(01) phase: post_build (Hooks) (done)
-2025-03-31T19:09:31.191178Z TRACE ThreadId(01) phase: post_build (SQF) (start)
-2025-03-31T19:09:31.191188Z TRACE ThreadId(01) phase: post_build (SQF) (done)
-2025-03-31T19:09:31.191192Z TRACE ThreadId(01) phase: post_build (Rapifier) (start)
-2025-03-31T19:09:31.191195Z TRACE ThreadId(01) phase: post_build (Rapifier) (done)
-2025-03-31T19:09:31.191199Z TRACE ThreadId(01) phase: post_build (Files) (start)
-2025-03-31T19:09:31.296735Z  INFO ThreadId(01) Copied 0 files
-2025-03-31T19:09:31.296774Z TRACE ThreadId(01) phase: post_build (Files) (done)
-2025-03-31T19:09:31.296779Z TRACE ThreadId(01) phase: post_build (FilePatching) (start)
-2025-03-31T19:09:31.297140Z TRACE ThreadId(01) removing existing symlink at D:\SteamLibrary\steamapps\common\Arma 3\z\ZT
-2025-03-31T19:09:31.297355Z TRACE ThreadId(01) junction link "D:\\SteamLibrary\\steamapps\\common\\Arma 3\\z\\ZT" => "C:\\Users\\pc\\Desktop\\@ZeusTools\\.hemttout\\dev"
-2025-03-31T19:09:31.310393Z  INFO ThreadId(01) created symlink to build folder for file patching
-2025-03-31T19:09:31.310408Z TRACE ThreadId(01) phase: post_build (FilePatching) (done)
-2025-03-31T19:09:31.310413Z TRACE ThreadId(01) phase: post_build (Stringtables) (start)
-2025-03-31T19:09:31.310416Z TRACE ThreadId(01) phase: post_build (Stringtables) (done)
-2025-03-31T19:09:31.314800Z  INFO ThreadId(01) Launching "D:\\SteamLibrary\\steamapps\\common\\Arma 3" with:
+2025-03-31T19:51:17.546628Z TRACE ThreadId(01) launch config: LaunchOptions { workshop: [], dlc: [], presets: [], optionals: [], mission: None, dev_mission: None, parameters: [], executable: None, binarize: None, file_patching: None, instances: None, rapify: None }
+2025-03-31T19:51:17.555074Z DEBUG ThreadId(01) Arma 3 found at: D:\SteamLibrary\steamapps\common\Arma 3
+2025-03-31T19:51:17.556799Z TRACE ThreadId(01) using temporary folder: "C:\\Users\\pc\\AppData\\Local\\Temp\\hemtt\\Users_pc_Desktop_@ZeusTools"
+2025-03-31T19:51:17.556819Z TRACE ThreadId(01) using project folder: "C:\\Users\\pc\\Desktop\\@ZeusTools"
+2025-03-31T19:51:17.556879Z TRACE ThreadId(01) using out folder: "C:\\Users\\pc\\Desktop\\@ZeusTools\\.hemttout"
+2025-03-31T19:51:17.557153Z TRACE ThreadId(01) using build folder: "C:\\Users\\pc\\Desktop\\@ZeusTools\\.hemttout\\dev"
+2025-03-31T19:51:17.559087Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\pc\\AppData\\Local\\Temp\\hemtt\\Users_pc_Desktop_@ZeusTools\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\pc\\Desktop\\@ZeusTools" } } } } } }] } } }
+2025-03-31T19:51:17.559331Z TRACE ThreadId(01) Prefix: VfsPath { path: "/addons/$PBOPREFIX$", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\pc\\AppData\\Local\\Temp\\hemtt\\Users_pc_Desktop_@ZeusTools\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\pc\\Desktop\\@ZeusTools" } } } } } }] } } }
+2025-03-31T19:51:17.560125Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/functions/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\pc\\AppData\\Local\\Temp\\hemtt\\Users_pc_Desktop_@ZeusTools\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\pc\\Desktop\\@ZeusTools" } } } } } }] } } }
+2025-03-31T19:51:17.560377Z TRACE ThreadId(01) Prefix: VfsPath { path: "/addons/functions/$PBOPREFIX$", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\pc\\AppData\\Local\\Temp\\hemtt\\Users_pc_Desktop_@ZeusTools\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\pc\\Desktop\\@ZeusTools" } } } } } }] } } }
+2025-03-31T19:51:17.560993Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/sequencer/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\pc\\AppData\\Local\\Temp\\hemtt\\Users_pc_Desktop_@ZeusTools\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\pc\\Desktop\\@ZeusTools" } } } } } }] } } }
+2025-03-31T19:51:17.561105Z TRACE ThreadId(01) Prefix: VfsPath { path: "/addons/sequencer/$PBOPREFIX$", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\pc\\AppData\\Local\\Temp\\hemtt\\Users_pc_Desktop_@ZeusTools\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\pc\\Desktop\\@ZeusTools" } } } } } }] } } }
+2025-03-31T19:51:17.562160Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/sequencer/modules/HelloWorld/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\pc\\AppData\\Local\\Temp\\hemtt\\Users_pc_Desktop_@ZeusTools\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\pc\\Desktop\\@ZeusTools" } } } } } }] } } }
+2025-03-31T19:51:17.562488Z TRACE ThreadId(01) reading version from project.toml
+2025-03-31T19:51:17.569642Z  INFO ThreadId(01) Config loaded for ZeusTools 0.1.0.0-ef54b671
+2025-03-31T19:51:17.569709Z TRACE ThreadId(01) Scanning C:\Users\pc\Desktop\@ZeusTools\addons for addons
+2025-03-31T19:51:17.570860Z  INFO ThreadId(01) Creating `dev` version
+2025-03-31T19:51:17.570876Z TRACE ThreadId(01) phase: init (BOM Check) (start)
+2025-03-31T19:51:17.570881Z TRACE ThreadId(01) phase: init (BOM Check) (done)
+2025-03-31T19:51:17.570884Z TRACE ThreadId(01) phase: init (Hooks) (start)
+2025-03-31T19:51:17.570919Z TRACE ThreadId(01) no hooks folder
+2025-03-31T19:51:17.570924Z TRACE ThreadId(01) phase: init (Hooks) (done)
+2025-03-31T19:51:17.570927Z TRACE ThreadId(01) phase: init (SQF) (start)
+2025-03-31T19:51:18.031971Z TRACE ThreadId(01) phase: init (SQF) (done)
+2025-03-31T19:51:18.031986Z TRACE ThreadId(01) phase: init (Rapifier) (start)
+2025-03-31T19:51:18.031990Z TRACE ThreadId(01) phase: init (Rapifier) (done)
+2025-03-31T19:51:18.031993Z TRACE ThreadId(01) phase: init (Files) (start)
+2025-03-31T19:51:18.031996Z TRACE ThreadId(01) phase: init (Files) (done)
+2025-03-31T19:51:18.032000Z TRACE ThreadId(01) phase: init (FilePatching) (start)
+2025-03-31T19:51:18.032003Z TRACE ThreadId(01) phase: init (FilePatching) (done)
+2025-03-31T19:51:18.032006Z TRACE ThreadId(01) phase: init (Stringtables) (start)
+2025-03-31T19:51:18.032010Z TRACE ThreadId(01) phase: init (Stringtables) (done)
+2025-03-31T19:51:18.032016Z TRACE ThreadId(01) phase: check (BOM Check) (start)
+2025-03-31T19:51:18.032725Z TRACE ThreadId(01) phase: check (BOM Check) (done)
+2025-03-31T19:51:18.032732Z TRACE ThreadId(01) phase: check (Hooks) (start)
+2025-03-31T19:51:18.032736Z TRACE ThreadId(01) phase: check (Hooks) (done)
+2025-03-31T19:51:18.032739Z TRACE ThreadId(01) phase: check (SQF) (start)
+2025-03-31T19:51:18.032797Z TRACE ThreadId(01) phase: check (SQF) (done)
+2025-03-31T19:51:18.032800Z TRACE ThreadId(01) phase: check (Rapifier) (start)
+2025-03-31T19:51:18.032840Z TRACE ThreadId(01) phase: check (Rapifier) (done)
+2025-03-31T19:51:18.032844Z TRACE ThreadId(01) phase: check (Files) (start)
+2025-03-31T19:51:18.032847Z TRACE ThreadId(01) phase: check (Files) (done)
+2025-03-31T19:51:18.032850Z TRACE ThreadId(01) phase: check (FilePatching) (start)
+2025-03-31T19:51:18.032853Z TRACE ThreadId(01) phase: check (FilePatching) (done)
+2025-03-31T19:51:18.032857Z TRACE ThreadId(01) phase: check (Stringtables) (start)
+2025-03-31T19:51:18.032877Z TRACE ThreadId(01) phase: check (Stringtables) (done)
+2025-03-31T19:51:18.032881Z TRACE ThreadId(01) phase: pre_build (BOM Check) (start)
+2025-03-31T19:51:18.032884Z TRACE ThreadId(01) phase: pre_build (BOM Check) (done)
+2025-03-31T19:51:18.032887Z TRACE ThreadId(01) phase: pre_build (Hooks) (start)
+2025-03-31T19:51:18.032894Z TRACE ThreadId(01) phase: pre_build (Hooks) (done)
+2025-03-31T19:51:18.032897Z TRACE ThreadId(01) phase: pre_build (SQF) (start)
+2025-03-31T19:51:18.037401Z TRACE ThreadId(07) sqf compiling /addons/functions/fn_checkVIP.sqf
+2025-03-31T19:51:18.037402Z TRACE ThreadId(04) sqf compiling /addons/sequencer/modules/HelloWorld/functions/fn_helloWorld.sqf
+2025-03-31T19:51:18.037401Z TRACE ThreadId(03) sqf compiling /addons/functions/fn_globalHelloWorld.sqf
+2025-03-31T19:51:18.040902Z  INFO ThreadId(01) Compiled 3 sqf files
+2025-03-31T19:51:18.040920Z TRACE ThreadId(01) phase: pre_build (SQF) (done)
+2025-03-31T19:51:18.040925Z TRACE ThreadId(01) phase: pre_build (Rapifier) (start)
+2025-03-31T19:51:18.046446Z  INFO ThreadId(01) Rapified 3 addon configs
+2025-03-31T19:51:18.046470Z TRACE ThreadId(01) phase: pre_build (Rapifier) (done)
+2025-03-31T19:51:18.046474Z TRACE ThreadId(01) phase: pre_build (Files) (start)
+2025-03-31T19:51:18.046478Z TRACE ThreadId(01) phase: pre_build (Files) (done)
+2025-03-31T19:51:18.046481Z TRACE ThreadId(01) phase: pre_build (FilePatching) (start)
+2025-03-31T19:51:18.046758Z TRACE ThreadId(03) junction link "C:\\Users\\pc\\Desktop\\@ZeusTools\\.hemttout\\dev\\addons\\functions" => "C:\\Users\\pc\\Desktop\\@ZeusTools\\addons\\functions"
+2025-03-31T19:51:18.046774Z TRACE ThreadId(05) junction link "C:\\Users\\pc\\Desktop\\@ZeusTools\\.hemttout\\dev\\addons\\sequencer" => "C:\\Users\\pc\\Desktop\\@ZeusTools\\addons\\sequencer"
+2025-03-31T19:51:18.063450Z TRACE ThreadId(01) phase: pre_build (FilePatching) (done)
+2025-03-31T19:51:18.063467Z TRACE ThreadId(01) phase: pre_build (Stringtables) (start)
+2025-03-31T19:51:18.066077Z  INFO ThreadId(01) Checked 0 stringtables
+2025-03-31T19:51:18.066107Z TRACE ThreadId(01) phase: pre_build (Stringtables) (done)
+2025-03-31T19:51:18.066114Z TRACE ThreadId(01) phase: build (start)
+2025-03-31T19:51:18.068855Z DEBUG ThreadId(01) "C:\\Users\\pc\\Desktop\\@ZeusTools\\.hemttout\\dev\\addons" already exists
+2025-03-31T19:51:18.068868Z DEBUG ThreadId(01) building "addons/functions" => "C:\\Users\\pc\\Desktop\\@ZeusTools\\.hemttout\\dev\\addons\\ZT_functions.pbo"
+2025-03-31T19:51:18.069439Z TRACE ThreadId(01) adding file "fn_checkVIP.sqfc"
+2025-03-31T19:51:18.069457Z TRACE ThreadId(01) adding file "config.bin"
+2025-03-31T19:51:18.069555Z TRACE ThreadId(01) adding file "fn_checkVIP.sqf"
+2025-03-31T19:51:18.069783Z TRACE ThreadId(01) adding file "fn_globalHelloWorld.sqf"
+2025-03-31T19:51:18.069899Z TRACE ThreadId(01) adding file "fn_globalHelloWorld.sqfc"
+2025-03-31T19:51:18.070989Z DEBUG ThreadId(01) "C:\\Users\\pc\\Desktop\\@ZeusTools\\.hemttout\\dev\\addons" already exists
+2025-03-31T19:51:18.071000Z DEBUG ThreadId(01) building "addons/sequencer" => "C:\\Users\\pc\\Desktop\\@ZeusTools\\.hemttout\\dev\\addons\\ZT_sequencer.pbo"
+2025-03-31T19:51:18.072022Z TRACE ThreadId(01) adding file "config.bin"
+2025-03-31T19:51:18.072513Z TRACE ThreadId(01) adding file "modules\\plannedModules.txt"
+2025-03-31T19:51:18.072615Z TRACE ThreadId(01) adding file "modules\\HelloWorld\\config.bin"
+2025-03-31T19:51:18.072725Z TRACE ThreadId(01) adding file "modules\\HelloWorld\\functions\\fn_helloWorld.sqfc"
+2025-03-31T19:51:18.072828Z TRACE ThreadId(01) adding file "modules\\HelloWorld\\functions\\fn_helloWorld.sqf"
+2025-03-31T19:51:18.073872Z  INFO ThreadId(01) Built 2 PBOs
+2025-03-31T19:51:18.073896Z TRACE ThreadId(01) phase: build (done)
+2025-03-31T19:51:18.073902Z TRACE ThreadId(01) phase: post_build (BOM Check) (start)
+2025-03-31T19:51:18.073906Z TRACE ThreadId(01) phase: post_build (BOM Check) (done)
+2025-03-31T19:51:18.073910Z TRACE ThreadId(01) phase: post_build (Hooks) (start)
+2025-03-31T19:51:18.073914Z TRACE ThreadId(01) phase: post_build (Hooks) (done)
+2025-03-31T19:51:18.073917Z TRACE ThreadId(01) phase: post_build (SQF) (start)
+2025-03-31T19:51:18.073930Z TRACE ThreadId(01) phase: post_build (SQF) (done)
+2025-03-31T19:51:18.073933Z TRACE ThreadId(01) phase: post_build (Rapifier) (start)
+2025-03-31T19:51:18.073936Z TRACE ThreadId(01) phase: post_build (Rapifier) (done)
+2025-03-31T19:51:18.073940Z TRACE ThreadId(01) phase: post_build (Files) (start)
+2025-03-31T19:51:18.203635Z  INFO ThreadId(01) Copied 0 files
+2025-03-31T19:51:18.203662Z TRACE ThreadId(01) phase: post_build (Files) (done)
+2025-03-31T19:51:18.203667Z TRACE ThreadId(01) phase: post_build (FilePatching) (start)
+2025-03-31T19:51:18.203875Z TRACE ThreadId(01) removing existing symlink at D:\SteamLibrary\steamapps\common\Arma 3\z\ZT
+2025-03-31T19:51:18.204084Z TRACE ThreadId(01) junction link "D:\\SteamLibrary\\steamapps\\common\\Arma 3\\z\\ZT" => "C:\\Users\\pc\\Desktop\\@ZeusTools\\.hemttout\\dev"
+2025-03-31T19:51:18.216882Z  INFO ThreadId(01) created symlink to build folder for file patching
+2025-03-31T19:51:18.216900Z TRACE ThreadId(01) phase: post_build (FilePatching) (done)
+2025-03-31T19:51:18.216905Z TRACE ThreadId(01) phase: post_build (Stringtables) (start)
+2025-03-31T19:51:18.216909Z TRACE ThreadId(01) phase: post_build (Stringtables) (done)
+2025-03-31T19:51:18.221264Z  INFO ThreadId(01) Launching "D:\\SteamLibrary\\steamapps\\common\\Arma 3" with:
   -mod="C:\Users\pc\Desktop\@ZeusTools\.hemttout/dev"
   -skipIntro
   -noSplash
   -showScriptErrors
   -debug
   -filePatching
-2025-03-31T19:09:31.320330Z TRACE ThreadId(01) writing ci annotations to .hemttout/ci_annotations.txt
-2025-03-31T19:09:31.320766Z TRACE ThreadId(01) wrote 1 ci annotations to .hemttout/ci_annotations.txt
+2025-03-31T19:51:18.227065Z TRACE ThreadId(01) writing ci annotations to .hemttout/ci_annotations.txt
+2025-03-31T19:51:18.227409Z TRACE ThreadId(01) wrote 1 ci annotations to .hemttout/ci_annotations.txt
