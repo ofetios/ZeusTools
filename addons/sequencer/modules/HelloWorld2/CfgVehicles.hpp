@@ -1,7 +1,7 @@
-class ZT_Module_HelloWorld  : BaseSequenceModule {
-	displayName = "Hello World";
+class ZT_Module_HelloWorld2  : BaseSequenceModule {
+	displayName = "Hello World 2";
 	scope = 2;
-	function = "ZT_Sequencer_fnc_helloWorld";
+	function = "ZT_Sequencer_fnc_helloWorld2";
 	functionPriority = 1;
 	isGlobal = 1;
 	isTriggerActivated = 1;
