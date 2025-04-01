@@ -1,5 +1,6 @@
 # Ignore VSCode settings
 .vscode/
 
-# Ignore built addons
+# HEMTT
 .hemttout/
+hemtt.exe
