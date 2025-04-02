@@ -8,6 +8,9 @@ class CfgFunctions {
         class Global {
             file = "z\ZT\Sequencer\functions";
             class Global_getSyncedTriggers {};
+            class Global_getSyncedForeignModules {};
+            class Global_getSyncedSequenceModules {};
+            class Global_getSyncedModules {};
         };
     };
 };
