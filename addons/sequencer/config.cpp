@@ -31,10 +31,4 @@ class CfgVehicles {
 	#include "modules\Sequencer\CfgVehicles.hpp"
 };
 
-class CfgFunctions {
-    class ZT_Sequencer {
-        #include "modules\HelloWorld\CfgFunctions.hpp"
-        #include "modules\HelloWorld2\CfgFunctions.hpp"
-		#include "modules\Sequencer\CfgFunctions.hpp"
-    };
-};
+#include "CfgFunctions.hpp"
