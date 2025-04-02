@@ -24,6 +24,7 @@ class CfgVehicles {
 	
 	class BaseSequenceModule : Module_F {
 		category = "MyModuleCategory";
+		is3DEN = 0;
 	};
 	
 	#include "modules\HelloWorld\CfgVehicles.hpp"
