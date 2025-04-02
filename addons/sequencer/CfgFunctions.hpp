@@ -11,6 +11,7 @@ class CfgFunctions {
             class Global_getSyncedForeignModules {};
             class Global_getSyncedSequenceModules {};
             class Global_getSyncedModules {};
+            class Global_waitUntilTriggers {};
         };
     };
 };
