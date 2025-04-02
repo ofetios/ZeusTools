@@ -12,6 +12,7 @@ class CfgFunctions {
             class Global_getSyncedSequenceModules {};
             class Global_getSyncedModules {};
             class Global_waitUntilTriggers {};
+            class Global_buildDirectedGraph {};
         };
     };
 };
