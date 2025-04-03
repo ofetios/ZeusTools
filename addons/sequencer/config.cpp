@@ -3,7 +3,8 @@ class CfgPatches {
         units[] = {
 			"ZT_Module_HelloWorld",
 			"ZT_Module_HelloWorld2",
-			"ZT_Module_Sequencer"
+			"ZT_Module_Sequencer",
+			"ZT_Module_Delay",
 		};
     };
 };
@@ -30,6 +31,7 @@ class CfgVehicles {
 	#include "modules\HelloWorld\CfgVehicles.hpp"
 	#include "modules\HelloWorld2\CfgVehicles.hpp"
 	#include "modules\Sequencer\CfgVehicles.hpp"
+	#include "modules\Delay\CfgVehicles.hpp"
 };
 
 #include "CfgFunctions.hpp"
