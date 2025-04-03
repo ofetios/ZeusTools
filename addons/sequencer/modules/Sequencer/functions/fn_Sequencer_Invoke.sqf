@@ -8,7 +8,7 @@ params [
 if (!_activated) exitWith {};
 
 // Recirsively build a directed graph representation of the sync train.
-private _graph = [_logic, nil, []] call ZT_Sequencer_fnc_Global_buildDirectedGraph;
+private _graph = [_logic, objNull, []] call ZT_Sequencer_fnc_Global_buildDirectedGraph;
 diag_log format ["Whole Graph: %1", _graph];
 
 // Start executing the sequence.
@@ -23,7 +23,7 @@ while {(count _graph) > 0} do {
 	diag_log format ["Module: %1, Children: %2", _module, _children];
 
 	// Run main script
-	[_module] call ZT_Sequence_fnc_Global_invokeSequenceItem;
+	[_module] call ZT_Sequencer_fnc_Global_invokeSequenceItem;
 
 
 	// TODO: Implement Branching graphs
