@@ -19,9 +19,9 @@ diag_log format ["[ZT Sequencer] triggers: %1", _triggers];
 // trigger all zt_activate triggers
 {
     if (_x isKindOf "EmptyDetector" && {str _x find "zt_activate" > -1}) then {
-        _x setPosASL getPosASL player;
         _x setTriggerArea [50, 50, 45, false];
         _x setTriggerActivation ["ANY", "PRESENT", true];
+        _x setPosASL getPosASL player;
         diag_log format ["[ZT Sequencer] Activated trigger: %1", _x];
     };
 } forEach synchronizedObjects _module;
