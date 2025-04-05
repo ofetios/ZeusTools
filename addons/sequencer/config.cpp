@@ -2,7 +2,9 @@ class CfgPatches {
     class ZT_Sequencer {
         units[] = {
 			"ZT_Module_HelloWorld",
-			"ZT_Module_HelloWorld2"
+			"ZT_Module_HelloWorld2",
+			"ZT_Module_Sequencer",
+			"ZT_Module_Delay",
 		};
     };
 };
@@ -23,15 +25,13 @@ class CfgVehicles {
 	
 	class BaseSequenceModule : Module_F {
 		category = "MyModuleCategory";
+		is3DEN = 0;
 	};
 	
 	#include "modules\HelloWorld\CfgVehicles.hpp"
 	#include "modules\HelloWorld2\CfgVehicles.hpp"
+	#include "modules\Sequencer\CfgVehicles.hpp"
+	#include "modules\Delay\CfgVehicles.hpp"
 };
 
-class CfgFunctions {
-    class ZT_Sequencer {
-        #include "modules\HelloWorld\CfgFunctions.hpp"
-        #include "modules\HelloWorld2\CfgFunctions.hpp"
-    };
-};
+#include "CfgFunctions.hpp"

@@ -1,8 +1,7 @@
-class ZT_Module_HelloWorld  : BaseSequenceModule {
-	displayName = "Hello World";
+class ZT_Module_Sequencer  : BaseSequenceModule {
+	displayName = "Sequencer";
 	scope = 2;
-	function = "";
-	ZT_executionFunction = "ZT_Sequencer_fnc_helloWorld";
+	function = "ZT_Sequencer_fnc_Sequencer_Invoke";
 	functionPriority = 1;
 	isGlobal = 1;
 	isTriggerActivated = 1;
@@ -12,7 +11,7 @@ class ZT_Module_HelloWorld  : BaseSequenceModule {
 
 	class ModuleDescription : ModuleDescription {
 		description[] = {
-			"Test Module"
+			"This modules handles sequencing"
 		};
 	};
 };
