@@ -4,3 +4,6 @@
 # HEMTT
 .hemttout/
 hemtt.exe
+
+# HEMTT Mission
+.hemtt/missions/*
