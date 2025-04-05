@@ -4,6 +4,8 @@ class CfgFunctions {
         #include "modules\HelloWorld\CfgFunctions.hpp"
         #include "modules\HelloWorld2\CfgFunctions.hpp"
         #include "modules\Delay\CfgFunctions.hpp"
+        #include "modules\AwaitTriggers\CfgFunctions.hpp"
+        #include "modules\ActivateTriggers\CfgFunctions.hpp"
 		#include "modules\Sequencer\CfgFunctions.hpp"
 
         class Global {
@@ -13,6 +15,7 @@ class CfgFunctions {
             class Global_getSyncedSequenceModules {};
             class Global_getSyncedModules {};
             class Global_waitUntilTriggers {};
+            class Global_ActivateTriggers {};
             class Global_buildDirectedGraph {};
             class Global_invokeSequenceItem {};
         };
