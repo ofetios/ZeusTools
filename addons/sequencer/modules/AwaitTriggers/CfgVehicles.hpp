@@ -2,7 +2,7 @@ class ZT_Module_AwaitTriggers  : BaseSequenceModule {
 	displayName = "Await Triggers";
 	scope = 2;
 	function = "";
-	ZT_executionFunction = "ZT_Sequencer_fnc_AwaitTriggers";
+	ZT_executionFunction = "ZT_Sequencer_fnc_awaitTriggers";
 	functionPriority = 1;
 	isGlobal = 1;
 	isTriggerActivated = 1;

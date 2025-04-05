@@ -2,7 +2,7 @@ class ZT_Module_ActivateTriggers  : BaseSequenceModule {
 	displayName = "Activate Triggers";
 	scope = 2;
 	function = "";
-	ZT_executionFunction = "ZT_Sequencer_fnc_ActivateTriggers";
+	ZT_executionFunction = "ZT_Sequencer_fnc_activateTriggers";
 	functionPriority = 1;
 	isGlobal = 1;
 	isTriggerActivated = 1;
