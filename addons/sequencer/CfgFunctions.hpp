@@ -4,6 +4,7 @@ class CfgFunctions {
         #include "modules\HelloWorld\CfgFunctions.hpp"
         #include "modules\HelloWorld2\CfgFunctions.hpp"
         #include "modules\Delay\CfgFunctions.hpp"
+        #include "modules\AwaitTriggers\CfgFunctions.hpp"
 		#include "modules\Sequencer\CfgFunctions.hpp"
 
         class Global {
