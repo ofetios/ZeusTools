@@ -9,6 +9,7 @@ class CfgFunctions {
 		#include "modules\FadeEffect\CfgFunctions.hpp"
 		#include "modules\InfoText\CfgFunctions.hpp"
 		#include "modules\CinematicBorder\CfgFunctions.hpp"
+		#include "modules\Weather\CfgFunctions.hpp"
 
         class Global {
             file = "z\ZT\Sequencer\functions";
