@@ -1,0 +1,46 @@
+name: HEMTT
+
+on:
+  push:
+    branches:
+    - master
+  pull_request_target:
+
+jobs:
+  windows:
+    runs-on: windows-latest
+    steps:
+    - name: Download Arma 3 Tools ZIP
+      run: |
+        Invoke-WebRequest -Uri "${{ secrets.ARMA3_TOOLS_URL }}" -OutFile "arma3-tools.zip"
+        Expand-Archive -Path "arma3-tools.zip" -DestinationPath "arma3tools"
+
+    - name: Add Arma 3 Tools to PATH
+      run: |
+        echo "$env:GITHUB_WORKSPACE\\arma3tools\\bin" | Out-File -FilePath $env:GITHUB_PATH -Encoding utf8 -Append
+
+    - name: Checkout the source code
+      uses: actions/checkout@v4
+    - name: Setup HEMTT
+      uses: arma-actions/hemtt@v1
+    - name: Checkout pull request
+      uses: actions/checkout@v4
+      if: ${{ github.event_name == 'pull_request_target' }}
+      with:
+        path: pullrequest
+        ref: 'refs/pull/${{ github.event.number }}/merge'
+    - name: Replace addons with pull request addons
+      if: ${{ github.event_name == 'pull_request_target' }}
+      run: |
+        rm -r addons\
+        xcopy /e /h /q pullrequest\addons addons\
+    - name: Run HEMTT build
+      run: hemtt build
+    - name: Rename build folder
+      run: mv .hemttout/build .hemttout/@zeustools
+    - name: Upload Artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: zt-${{ github.sha }}
+        path: .hemttout/@*
+        include-hidden-files: true # Because .hemttout is a hidden directory
