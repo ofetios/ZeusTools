@@ -5,6 +5,7 @@ class CfgPatches {
 			"ZT_Module_Delay",
 			"ZT_Module_AwaitTriggers",
 			"ZT_Module_ActivateTriggers",
+			"ZT_Module_RunScript",
 		};
     };
 };
@@ -32,6 +33,7 @@ class CfgVehicles {
 	#include "modules\Delay\CfgVehicles.hpp"
 	#include "modules\AwaitTriggers\CfgVehicles.hpp"
 	#include "modules\ActivateTriggers\CfgVehicles.hpp"
+	#include "modules\RunScript\CfgVehicles.hpp"
 };
 
 #include "CfgFunctions.hpp"
