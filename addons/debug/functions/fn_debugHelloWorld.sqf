@@ -1,0 +1,1 @@
+hint "global hello world!";
