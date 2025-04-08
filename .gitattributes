@@ -1,0 +1,19 @@
+/*
+ * This file includes code from ACE3, which is licensed under the GNU General Public License v2.
+ * 
+ * Original source: https://github.com/acemod/ACE3
+ * 
+ * This file is therefore also licensed under the GNU General Public License v2.
+ * /
+
+* text=auto
+*.png binary
+*.jpg binary
+*.paa binary
+
+# Change GitHub language categorization
+addons/**/*.cpp linguist-language=SQF
+addons/**/*.hpp linguist-language=SQF
+
+# Do not count hemtt includes in language usage stats
+include/* linguist-vendored
