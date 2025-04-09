@@ -72,7 +72,7 @@ class ZT_Module_FadeEffect : BaseSequenceModule {
             displayName = "Delay sequence until the transition is over";
             description = "";
             typeName = "NUMBER";
-            defaultValue = ;
+            defaultValue = 0;
             class values {
                 class Option1 {
                     name = "No";
