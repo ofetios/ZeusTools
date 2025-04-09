@@ -13,6 +13,21 @@ diag_log format ["Teleport Targets: %1", _targets];
 
 
 {
-	diag_log format ["Setting Unit: %1 Position to %2", _x, _targets select 0];
-	_x setPosASL (_targets select 0);	
+    private _unit = _x;
+    
+	_unit disableAI "MOVE";     // Block any formation move logic
+	_unit disableAI "PATH";
+	_unit stop true;            // Force them to stop
+	_unit setPosASL (_targets select 0);
+	_unit setVelocity [0,0,0];  // Ensure no carryover velocity
+} forEach _units;
+
+// Re-enable AI after a short delay
+sleep 1;
+{
+    private _unit = _x;
+
+	_unit enableAI "MOVE";
+	_unit enableAI "PATH";
+	_unit stop false;
 } forEach _units;
