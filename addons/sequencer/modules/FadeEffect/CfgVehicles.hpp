@@ -89,7 +89,7 @@ class ZT_Module_FadeEffect : BaseSequenceModule {
 
     class ModuleDescription : ModuleDescription {
         description[] = {
-            "Waits for the specified duration before continuing the sequence."
+            "Creates a Fade IN/OUT effect with multiple parameters"
         };
     };
 };
