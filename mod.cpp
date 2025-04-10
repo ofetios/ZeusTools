@@ -1,8 +1,8 @@
-name = "ZeusTools";
+name = "ZeusTools 0.0.0";
 picture = "zt_logo.paa";
 logo = "zt_logo.paa";
 logoOver = "zt_logo.paa";
-tooltip = "ZeusTools";
+tooltip = "ZeusTools 0.0.0";
 tooltipOwned = "ZeusTools Owned";
 overview = "WIP: give this a good description";
 author = "WSV Team";
