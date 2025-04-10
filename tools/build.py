@@ -5,8 +5,8 @@ import sys
 import subprocess
 
 ######## GLOBALS #########
-MAINPREFIX = "x"
-PREFIX = "zen_"
+MAINPREFIX = "z"
+PREFIX = "ZT_"
 ##########################
 
 def tryHemttBuild(projectpath):
@@ -43,7 +43,7 @@ def check_for_obsolete_pbos(addonspath, file):
 def main():
     print("""
   ###################
-  # ZEN Debug Build #
+  #  ZT Debug Build #
   ###################
 """)
 

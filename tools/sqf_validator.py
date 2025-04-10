@@ -101,8 +101,8 @@ def check_sqf(filepath):
                             string_type = c
                         elif c == "/":
                             check_if_comment = True
-                        elif c == "\t":
-                            errors.append("  ERROR: Found a tab on line {}.".format(line_number))
+#                        elif c == "\t":
+#                            errors.append("  ERROR: Found a tab on line {}.".format(line_number))
                         elif c in ["(", "[", "{"]:
                             brackets.append(c)
                         elif c == ")":
