@@ -8,10 +8,9 @@ include = [
     "zt_logo.paa",
 ]
 
-
 [version]
 major = 0
-minor = 0
+minor = 1
 patch = 0
 build = 0
 
