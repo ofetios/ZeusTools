@@ -10,7 +10,7 @@ core_team = set()
 contributors = set()
 
 # Get contributors from GitHub
-result = urllib.request.urlopen('http://api.github.com/repos/zen-mod/ZEN/contributors')
+result = urllib.request.urlopen('https://api.github.com/repos/ofetios/ZeusTools/contributors')
 body = result.read()
 for entry in json.loads(body.decode("utf-8")):
     contributors.add(entry['login'])
