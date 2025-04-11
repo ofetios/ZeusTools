@@ -6,6 +6,7 @@ class CfgFunctions {
         #include "modules\ActivateTriggers\CfgFunctions.hpp"
 		#include "modules\Sequencer\CfgFunctions.hpp"
 		#include "modules\Time\CfgFunctions.hpp"
+		#include "modules\FadeEffect\CfgFunctions.hpp"
 
         class Global {
             file = "z\ZT\Sequencer\functions";

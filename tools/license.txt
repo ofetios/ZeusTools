@@ -1,0 +1,13 @@
+These tools are derived from the ACE3 project (https://github.com/acemod/ACE3),
+originally licensed under the GNU General Public License v2.0 (GPLv2).
+
+Modifications have been made to suit the needs of our project. These changes include,
+but may not be limited to, configuration adjustments and workflow integration.
+
+In accordance with the terms of the GPLv2, this modified version remains licensed
+under the same license. For more information on the GPLv2, please refer to:
+
+https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+
+Original Copyright © ACE3 Contributors
+Modified by Ofetios, 2025

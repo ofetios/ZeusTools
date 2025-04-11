@@ -8,7 +8,6 @@ include = [
     "zt_logo.paa",
 ]
 
-
 [version]
 major = 0
 minor = 1
@@ -16,4 +15,4 @@ patch = 0
 build = 0
 
 [build]
-main_addon = ["addons/functions", "addons/Sequencer"]
+main_addon = ["addons/debug", "addons/Sequencer", "addons/edenplus"]
