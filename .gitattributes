@@ -6,6 +6,7 @@
 # Change GitHub language categorization
 addons/**/*.cpp linguist-language=SQF
 addons/**/*.hpp linguist-language=SQF
+tools/*.py linguist-detectable=false
 
 # Do not count hemtt includes in language usage stats
 include/* linguist-vendored

@@ -3,6 +3,7 @@
 
 # HEMTT
 .hemttout/
+releases/*
 hemtt.exe
 
 # HEMTT Mission
