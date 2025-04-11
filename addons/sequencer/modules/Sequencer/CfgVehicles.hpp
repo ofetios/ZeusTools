@@ -1,4 +1,4 @@
-class ZT_Module_Sequencer  : BaseSequenceModule {
+class ZT_Module_Sequencer  : SequencerBase {
 	displayName = "Sequencer";
 	scope = 2;
 	function = "ZT_Sequencer_fnc_Sequencer_Invoke";

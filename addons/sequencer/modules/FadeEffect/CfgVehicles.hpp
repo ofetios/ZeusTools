@@ -10,8 +10,9 @@ class ZT_Module_FadeEffect : BaseSequenceModule {
     curatorCanAttach = 1;
     functionContext = "spawn";
 
-    class Arguments: AttributesBase {
-        class fadeType {
+    class Attributes : AttributesBase {
+        class fadeType: Combo {
+            property = "ZT_FadeEffect_FadeType";
             displayName = "Fade In / Out";
             description = "";
             typeName = "NUMBER";
@@ -28,9 +29,10 @@ class ZT_Module_FadeEffect : BaseSequenceModule {
                 };
             };
         };
-        class fadeColor {
+        class fadeColor: Combo {
+            property = "ZT_FadeEffect_FadeColor";
             displayName = "Fade Color";
-            description = "";
+            description = "Can be either black or white";
             typeName = "STRING";
             defaultValue = "BLACK";
             class values {
@@ -45,13 +47,15 @@ class ZT_Module_FadeEffect : BaseSequenceModule {
                 };
             };
         };
-        class fadeDuration {
+        class fadeDuration: Edit {
+            property = "ZT_FadeEffect_FadeDuration";
             displayName = "Fade Duration";
             description = "";
             typeName = "NUMBER";
             defaultValue = "3";
         };
-        class blur: Checkbox {
+        class blur: CheckboxNumber {
+            property = "ZT_FadeEffect_Blur";
             displayName = "Blur";
             description = "";
             typeName = "NUMBER";
@@ -68,22 +72,11 @@ class ZT_Module_FadeEffect : BaseSequenceModule {
                 };
             };
         };
-        class delaySequence: Checkbox {
-            displayName = "Delay sequence until the transition is over";
-            description = "";
-            typeName = "NUMBER";
-            defaultValue = 0;
-            class values {
-                class Option1 {
-                    name = "No";
-                    value = 0;
-                    default = 0;
-                };
-                class Option2 {
-                    name = "Yes";
-                    value = 1;
-                };
-            };
+        class delaySequence: CheckboxNumber {
+                property = "ZT_FadeEffect_DelaySequence";
+                displayName = "Delay Sequence";
+                tooltip = "Delay Sequence by fade duration";
+                typeName = "BOOL";
         };
     };
 

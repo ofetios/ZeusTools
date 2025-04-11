@@ -9,5 +9,8 @@ private _delaySequence = _module getVariable ["delaySequence", 0];
 [_fadeType, _fadeColor, _fadeduration, _blur] spawn BIS_fnc_fadeEffect;
 
 if (_delaySequence == 1) then {
-	sleep _fadeduration;
+	// artificially increase the delay by one second to avoid quick change
+	// in case there is another fade module being called in less than a second
+	_sleepDelay = _fadeduration + 1;
+	sleep _sleepDelay;
 }

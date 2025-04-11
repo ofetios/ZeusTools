@@ -37,6 +37,11 @@ class CfgVehicles {
 	
 	class BaseSequenceModule : Module_F {
 		category = "ZTSequencerCategory";
+		is3DEN = 1;
+	};
+
+	class SequencerBase : Module_F {
+		category = "ZTSequencerCategory";
 		is3DEN = 0;
 	};
 	
