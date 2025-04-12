@@ -4,7 +4,6 @@ private _variableName = _module getVariable ["variableName", ""];
 private _displayName = _module getVariable ["displayName", ""];
 
 
-hint format ["%1\n%2", _variableName, _displayName];
 private _actionMenuItemVariable = [_variableName] call ZT_Sequencer_fnc_actionMenuGetVariableTag;
 
 private _action = [
