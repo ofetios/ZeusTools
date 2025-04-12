@@ -1,5 +1,6 @@
 class CfgPatches {
     class ZT_Sequencer {
+		requiredAddons[] = {"zen_main"};
         units[] = {
 			"ZT_Module_Sequencer",
 			"ZT_Module_Delay",
