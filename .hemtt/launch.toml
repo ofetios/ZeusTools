@@ -3,8 +3,6 @@ workshop = [
     "450814997", # CBA_A3
     "463939057", # ACE3
     "1779063631", # ZEN
-    "1751569185", # Pythia (dependency of '7erra's Editing Extensions')
-    "1387934106", # 7erra's Editing Extensions
 ]
 mission = "zeus.VR"  
 
