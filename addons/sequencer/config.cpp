@@ -7,6 +7,7 @@ class CfgPatches {
 			"ZT_Module_AwaitTriggers",
 			"ZT_Module_ActivateTriggers",
 			"ZT_Module_FadeEffect",
+			"ZT_Module_CinematicBorder",
 		};
     };
 };
@@ -52,6 +53,7 @@ class CfgVehicles {
 	#include "modules\AwaitTriggers\CfgVehicles.hpp"
 	#include "modules\ActivateTriggers\CfgVehicles.hpp"
 	#include "modules\FadeEffect\CfgVehicles.hpp"
+	#include "modules\CinematicBorder\CfgVehicles.hpp"
 };
 
 #include "CfgFunctions.hpp"
