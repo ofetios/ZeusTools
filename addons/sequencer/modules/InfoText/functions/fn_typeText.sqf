@@ -11,6 +11,9 @@
 	* Every text block is an array of text and formatting tag.
 	* Blocks don't have to span over whole line.
 
+	* Return Value:
+ 	* None
+
 	Example:
 
 	[
