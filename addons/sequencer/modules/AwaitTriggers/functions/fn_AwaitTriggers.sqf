@@ -7,5 +7,7 @@ params [
 // If module is deactivated, just exit
 if (!_activated) exitWith {};
 
+private _allAny = _logic getVariable ["allAny", 0];
+
 _triggers = [_logic] call ZT_Sequencer_fnc_Global_getSyncedTriggers;
-[_triggers, 0.2] call ZT_Sequencer_fnc_Global_waitUntilTriggers;
+[_triggers, 0.2, (_allAny < 1)] call ZT_Sequencer_fnc_Global_waitUntilTriggers;
