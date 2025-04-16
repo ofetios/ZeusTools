@@ -1,13 +1,13 @@
 params ["_module"];
 
-private _overcast = _module getVariable ["overcast", -1];
-private _rain = _module getVariable ["rain", -1];
-private _fogValue = _module getVariable ["fogValue", -1];
-private _fogDecay = _module getVariable ["fogDecay", -1];
-private _fogBase = _module getVariable ["fogBase", -1];
-private _windStr = _module getVariable ["windStr", 0];
-private _windDir = _module getVariable ["windDir", 0];
-private _duration = _module getVariable ["duration", 120];
+private _overcast = _module getVariable ["ZT_Weather_Overcast", -1];
+private _rain = _module getVariable ["ZT_Weather_Rain", -1];
+private _fogValue = _module getVariable ["ZT_Weather_FogValue", -1];
+private _fogDecay = _module getVariable ["ZT_Weather_FogDecay", -1];
+private _fogBase = _module getVariable ["ZT_Weather_FogBase", -1];
+private _windStr = _module getVariable ["ZT_Weather_WindStrength", 0];
+private _windDir = _module getVariable ["ZT_Weather_WindDirection", 0];
+private _duration = _module getVariable ["ZT_Weather_Duration", 120];
 
 // Get current weather status
 private _currentOvercast = overcast;
