@@ -9,6 +9,7 @@ class CfgPatches {
 			"ZT_Module_FadeEffect",
 			"ZT_Module_InfoText",
 			"ZT_Module_CinematicBorder",
+			"ZT_Module_Weather",
 		};
     };
 };
@@ -56,6 +57,7 @@ class CfgVehicles {
 	#include "modules\FadeEffect\CfgVehicles.hpp"
 	#include "modules\InfoText\CfgVehicles.hpp"
 	#include "modules\CinematicBorder\CfgVehicles.hpp"
+	#include "modules\Weather\CfgVehicles.hpp"
 };
 
 #include "CfgFunctions.hpp"
