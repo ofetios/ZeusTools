@@ -10,12 +10,15 @@ class ZT_Module_Delay : BaseSequenceModule {
     curatorCanAttach = 1;
     functionContext = "spawn";
 
-    class Arguments {
-        class delayDuration {
+    class Attributes {
+        class ZT_Delay_DelayDuration {
+            property = "ZT_Delay_DelayDuration";
+            tooltip = "How many seconds to wait before continuing.";
             displayName = "Delay Duration";
-            description = "How many seconds to wait before continuing.";
             typeName = "NUMBER";
-            defaultValue = "5";
+            control = "Edit";
+            defaultValue = "3";
+            expression = "_this setVariable ['ZT_Delay_DelayDuration', _value, true];";
         };
     };
 
