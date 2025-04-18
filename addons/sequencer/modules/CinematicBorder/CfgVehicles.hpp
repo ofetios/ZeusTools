@@ -10,13 +10,15 @@ class ZT_Module_CinematicBorder : BaseSequenceModule {
     curatorCanAttach = 1;
     functionContext = "spawn";
 
-    class Attributes : AttributesBase {
-        class fadeMode: Combo {
-            property = "ZT_cinematicBorder_fadeMode";
+    class Attributes {
+        class ZT_CinematicBorder_FadeMode {
+            property = "ZT_CinematicBorder_FadeMode";
+            tooltip = "Fade In / Out";
             displayName = "Fade In / Out";
-            description = "";
             typeName = "NUMBER";
+            control = "Combo";
             defaultValue = "0";
+            expression = "_this setVariable ['ZT_CinematicBorder_FadeMode', _value, true];";
             class values {
                 class Option1 {
                     name = "Fade In";
@@ -30,42 +32,50 @@ class ZT_Module_CinematicBorder : BaseSequenceModule {
             };
         };
 
-        class duration: Edit {
+        class ZT_CinematicBorder_Duration {
             property = "ZT_CinematicBorder_Duration";
+            tooltip = "How fast should the effect take place";
             displayName = "Fade Duration";
-            description = "";
             typeName = "NUMBER";
+            control = "Edit";
             defaultValue = "1.5";
+            expression = "_this setVariable ['ZT_CinematicBorder_Duration', _value, true];";
         };
 
-        class playSound: Checkbox {
-            property = "ZT_CinematicBorder_playSound";
+        class ZT_CinematicBorder_PlaySound {
+            property = "ZT_CinematicBorder_PlaySound";
+            tooltip = "Play sound?";
             displayName = "Play Sound";
-            tooltip = "";
             typeName = "BOOL";
+            control = "Checkbox";
             defaultValue = "true";
+            expression = "_this setVariable ['ZT_CinematicBorder_PlaySound', _value, true];";
         };
 
-        class forceFirstPerson: Checkbox {
-            property = "ZT_CinematicBorder_forceFirstPerson";
+        class ZT_CinematicBorder_ForceFirstPerson {
+            property = "ZT_CinematicBorder_ForceFirstPerson";
+            tooltip = "";
             displayName = "Force first-person";
-            tooltip = "";
             typeName = "BOOL";
+            control = "Checkbox";
             defaultValue = "false";
+            expression = "_this setVariable ['ZT_CinematicBorder_ForceFirstPerson', _value, true];";
         };
 
-        class delaySequence: Checkbox {
-            property = "ZT_CinematicBorder_delaySequence";
-            displayName = "Delay Sequence";
+        class ZT_CinematicBorder_DelaySequence {
+            property = "ZT_CinematicBorder_DelaySequence";
             tooltip = "Delay Sequence by fade duration";
+            displayName = "Delay Sequence";
             typeName = "BOOL";
+            control = "Checkbox";
             defaultValue = "true";
+            expression = "_this setVariable ['ZT_CinematicBorder_DelaySequence', _value, true];";
         };
     };
 
     class ModuleDescription : ModuleDescription {
         description[] = {
-            ""
+            "Adds Cinematic borders to local user"
         };
     };
 };
