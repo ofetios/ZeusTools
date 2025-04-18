@@ -10,22 +10,26 @@ class ZT_Module_Teleport : BaseSequenceModule {
     curatorCanAttach = 1;
     functionContext = "spawn";
 
-    class Arguments {
-
-        class units {
+    class Attributes {
+        class ZT_Teleport_Units {
+            property = "ZT_Teleport_Units";
+            tooltip = "Unit, Array of Units, Group, or Array of Groups";
             displayName = "Units";
-            description = "Unit, Array of Units, Group, or Array of Groups";
             typeName = "STRING";
+            control = "Edit";
             defaultValue = "";
+            expression = "_this setVariable ['ZT_Teleport_Units', _value, true];";
         };
 
-        class targets {
+        class ZT_Teleport_Targets {
+            property = "ZT_Teleport_Targets";
+            tooltip = "Position, Array of Positions, Vehicle, Array Of Vehicle";
             displayName = "Targets";
-            description  = "Position, Array of Positions, Vehicle, Array Of Vehicles";
             typeName = "STRING";
+            control = "Edit";
             defaultValue = "";
+            expression = "_this setVariable ['ZT_Teleport_Targets', _value, true];";
         };
-
     };
 
     class ModuleDescription : ModuleDescription {
