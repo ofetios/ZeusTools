@@ -10,13 +10,15 @@ class ZT_Module_FadeEffect : BaseSequenceModule {
     curatorCanAttach = 1;
     functionContext = "spawn";
 
-    class Attributes : AttributesBase {
-        class fadeType: Combo {
+    class Attributes {
+        class ZT_FadeEffect_FadeType {
             property = "ZT_FadeEffect_FadeType";
+            tooltip = "Fade to selected color / fade back to normal screen";
             displayName = "Fade In / Out";
-            description = "";
             typeName = "NUMBER";
+            control = "Combo";
             defaultValue = "0";
+            expression = "_this setVariable ['ZT_Teleport_FadeType', _value, true];";
             class values {
                 class Option1 {
                     name = "Fade In";
@@ -29,12 +31,15 @@ class ZT_Module_FadeEffect : BaseSequenceModule {
                 };
             };
         };
-        class fadeColor: Combo {
+
+        class ZT_FadeEffect_FadeColor {
             property = "ZT_FadeEffect_FadeColor";
+            tooltip = "Fade to selected color / fade back to normal screen";
             displayName = "Fade Color";
-            description = "Can be either black or white";
             typeName = "STRING";
-            defaultValue = "BLACK";
+            control = "Combo";
+            defaultValue = """BLACK""";
+            expression = "_this setVariable ['ZT_FadeEffect_FadeColor', _value, true];";
             class values {
                 class Option1 {
                     name = "Black";
@@ -47,19 +52,24 @@ class ZT_Module_FadeEffect : BaseSequenceModule {
                 };
             };
         };
-        class fadeDuration: Edit {
+
+        class ZT_FadeEffect_FadeDuration {
             property = "ZT_FadeEffect_FadeDuration";
+            tooltip = "How fast should the effect take place";
             displayName = "Fade Duration";
-            description = "";
             typeName = "NUMBER";
+            control = "Edit";
             defaultValue = "3";
+            expression = "_this setVariable ['ZT_FadeEffect_FadeDuration', _value, true];";
         };
-        class blur: CheckboxNumber {
+        class ZT_FadeEffect_Blur {
             property = "ZT_FadeEffect_Blur";
+            tooltip = "Blur the screen while fading?";
             displayName = "Blur";
-            description = "";
             typeName = "NUMBER";
+            control = "CheckboxNumber";
             defaultValue = 0;
+            expression = "_this setVariable ['ZT_FadeEffect_Blur', _value, true];";
             class values {
                 class Option1 {
                     name = "No";
@@ -72,11 +82,14 @@ class ZT_Module_FadeEffect : BaseSequenceModule {
                 };
             };
         };
-        class delaySequence: CheckboxNumber {
-                property = "ZT_FadeEffect_DelaySequence";
-                displayName = "Delay Sequence";
-                tooltip = "Delay Sequence by fade duration";
-                typeName = "BOOL";
+
+        class ZT_FadeEffect_DelaySequence {
+            property = "ZT_FadeEffect_DelaySequence";
+            tooltip = "Should this module delay the sequencer?";
+            displayName = "Delay Sequence";
+            typeName = "BOOL";
+            control = "CheckboxNumber";
+            expression = "_this setVariable ['ZT_FadeEffect_DelaySequence', _value, true];";
         };
     };
 

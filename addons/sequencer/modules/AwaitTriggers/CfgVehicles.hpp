@@ -10,20 +10,22 @@ class ZT_Module_AwaitTriggers  : BaseSequenceModule {
 	curatorCanAttach = 1;
 	functionContext = "spawn";
 
-	class Attributes : AttributesBase {
-        class allAny: Combo {
+	class Attributes {
+        class ZT_AwaitTriggers_AllAny {
             property = "ZT_AwaitTriggers_AllAny";
+            tooltip = "How many triggers need to be activated for the sequence to continue";
             displayName = "All / Any Triggers";
-            description = "How many triggers need to be activated for the sequence to continue";
             typeName = "NUMBER";
+            control = "Combo";
             defaultValue = 0;
-            class values {
+            expression = "_this setVariable ['ZT_AwaitTriggers_AllAny', _value, true];";
+			class values {
                 class Option1 {
-                    name = "ALL";
+                    name = "All";
                     value = 0;
                 };
                 class Option2 {
-                    name = "ANY";
+                    name = "Any";
                     value = 1;
                 };
             };
