@@ -10,20 +10,26 @@ class ZT_Module_ActionMenuAdd : BaseSequenceModule {
     curatorCanAttach = 1;
     functionContext = "spawn";
 
-    class Arguments {
+    class Attributes {
 
-        class variableName {
+        class ZT_ActionMenuAdd_VariableName_Add {
+            property = "ZT_ActionMenuAdd_VariableName_Add";
+            tooltip = "A variable name used to refer to the action in other modules";
             displayName = "Action Variable Name";
-            description = "A variable name used to refer to the action in other modules";
             typeName = "STRING";
+            control = "Edit";
             defaultValue = "";
+            expression = "_this setVariable ['ZT_ActionMenuAdd_VariableName_Add', _value, true];";
         };
 
-        class displayName {
+        class ZT_ActionMenuAdd_DisplayName {
+            property = "ZT_ActionMenuAdd_DisplayName";
+            tooltip = "The text displayed in the Action Menu";
             displayName = "Action Text";
-            description = "The text displayed in the Action Menu";
             typeName = "STRING";
+            control = "Edit";
             defaultValue = "";
+            expression = "_this setVariable ['ZT_ActionMenuAdd_DisplayName', _value, true];";
         };
 
     };
@@ -50,11 +56,14 @@ class ZT_Module_ActionMenuAwait : BaseSequenceModule {
 
     class Arguments {
 
-        class variableName {
+        class ZT_ActionMenuAdd_VariableName_Await {
+            property = "ZT_ActionMenuAdd_VariableName_Await";
+            tooltip = "The variable name used to refer to the action in other moduless";
             displayName = "Action Variable Name";
-            description = "The variable name used to refer to the action in other modules";
             typeName = "STRING";
+            control = "Edit";
             defaultValue = "";
+            expression = "_this setVariable ['ZT_ActionMenuAdd_VariableName_Await', _value, true];";
         };
 
     };
