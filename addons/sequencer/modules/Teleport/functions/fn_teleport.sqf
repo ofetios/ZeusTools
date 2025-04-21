@@ -1,7 +1,7 @@
 params ["_module"];
 
-private _unitsString = _module getVariable ["units", ""];
-private _targetsString = _module getVariable ["targets", ""];
+private _unitsString = _module getVariable "ZT_Teleport_Units";
+private _targetsString = _module getVariable "ZT_Teleport_Targets";
 
 
 private _units = [_unitsString] call ZT_Sequencer_fnc_teleport_parse_units;
