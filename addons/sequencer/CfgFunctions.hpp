@@ -7,6 +7,7 @@ class CfgFunctions {
         #include "modules\ActivateTriggers\CfgFunctions.hpp"
 		#include "modules\Sequencer\CfgFunctions.hpp"
 		#include "modules\FadeEffect\CfgFunctions.hpp"
+		#include "modules\ActionMenu\CfgFunctions.hpp"
 		#include "modules\InfoText\CfgFunctions.hpp"
 		#include "modules\CinematicBorder\CfgFunctions.hpp"
 		#include "modules\Weather\CfgFunctions.hpp"
