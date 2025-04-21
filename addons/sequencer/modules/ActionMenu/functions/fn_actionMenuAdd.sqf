@@ -9,7 +9,7 @@ private _actionMenuItemVariable = [_variableName] call ZT_Sequencer_fnc_actionMe
 private _action = [
     _actionMenuItemVariable,
     _displayName,
-    "",
+    "\A3\ui_f\data\map\groupicons\selector_selectable_ca.paa",
     {_args call ZT_Sequencer_fnc_actionMenuCalled},
     {true},
     [_actionMenuItemVariable]
