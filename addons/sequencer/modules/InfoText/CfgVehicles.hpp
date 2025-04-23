@@ -10,7 +10,7 @@ class ZT_Module_InfoText : BaseSequenceModule {
     curatorCanAttach = 1;
     functionContext = "spawn";
 
-    class Attributes : AttributesBase {
+    class Attributes {
         
         class ZT_InfoText_Header {
             property = "ZT_InfoText_Header";
