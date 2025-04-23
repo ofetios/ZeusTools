@@ -6,7 +6,7 @@ private _fadeduration = _module getVariable ["ZT_FadeEffect_FadeDuration", 1];
 private _blur = _module getVariable ["ZT_FadeEffect_Blur", 0];
 private _delaySequence = _module getVariable ["ZT_FadeEffect_DelaySequence", 0];
 
-[_fadeType, _fadeColor, _fadeduration, _blur] spawn BIS_fnc_fadeEffect;
+[_fadeType, _fadeColor, _fadeduration, _blur] remoteExec ["BIS_fnc_fadeEffect", 0];
 
 if (_delaySequence == 1) then {
 	// artificially increase the delay by one second to avoid quick change

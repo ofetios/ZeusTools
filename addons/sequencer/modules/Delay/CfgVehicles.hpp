@@ -17,7 +17,7 @@ class ZT_Module_Delay : BaseSequenceModule {
             displayName = "Delay Duration";
             typeName = "NUMBER";
             control = "Edit";
-            defaultValue = "3";
+            defaultValue = 3;
             expression = "_this setVariable ['ZT_Delay_DelayDuration', _value, true];";
         };
     };

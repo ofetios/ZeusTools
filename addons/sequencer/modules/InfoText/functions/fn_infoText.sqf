@@ -19,7 +19,7 @@ if (_type == 0) then {
 		safeZoneH/2, safeZoneY + safeZoneH/1.4,
 		"<t>%1</t>", // default _rootFormat, required so _delay gets to param 4
 		_delay
-	] spawn ZT_Sequencer_fnc_typeText;
+	] remoteExec ["ZT_Sequencer_fnc_typeText", 0]
 } else {
-	[_header, _lineOne, _lineTwo] spawn BIS_fnc_infoText;
+	[_header, _lineOne, _lineTwo] remoteExec ["BIS_fnc_infoText", 0];
 }
