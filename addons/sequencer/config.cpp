@@ -13,6 +13,7 @@ class CfgPatches {
 			"ZT_Module_InfoText",
 			"ZT_Module_CinematicBorder",
 			"ZT_Module_Weather",
+			"ZT_Module_CustomScript",
 		};
     };
 };
@@ -62,6 +63,7 @@ class CfgVehicles {
 	#include "modules\InfoText\CfgVehicles.hpp"
 	#include "modules\CinematicBorder\CfgVehicles.hpp"
 	#include "modules\Weather\CfgVehicles.hpp"
+	#include "modules\CustomScript\CfgVehicles.hpp"
 };
 
 #include "CfgFunctions.hpp"
