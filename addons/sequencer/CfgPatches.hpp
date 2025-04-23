@@ -13,6 +13,7 @@ class CfgPatches {
 			"ZT_Module_InfoText",
 			"ZT_Module_CinematicBorder",
 			"ZT_Module_Weather",
+			"ZT_Module_CustomScript",
 		};
     };
 };

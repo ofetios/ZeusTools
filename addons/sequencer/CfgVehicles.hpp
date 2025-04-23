@@ -25,4 +25,5 @@ class CfgVehicles {
 	#include "modules\InfoText\CfgVehicles.hpp"
 	#include "modules\CinematicBorder\CfgVehicles.hpp"
 	#include "modules\Weather\CfgVehicles.hpp"
+	#include "modules\CustomScript\CfgVehicles.hpp"
 };
