@@ -1,4 +1,3 @@
-
 class CfgFunctions {
     class ZT_Sequencer {
         #include "modules\Teleport\CfgFunctions.hpp"

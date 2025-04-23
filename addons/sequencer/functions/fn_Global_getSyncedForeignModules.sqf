@@ -16,4 +16,3 @@ private _modules = [];
 
 // Return modules
 _modules;
-
